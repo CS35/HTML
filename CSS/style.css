@@ -1,3 +1,103 @@
 p.major {font-size:14pt;
 font-style: italic;
 font-family: 'Times New Roman';}
+body {
+  background-image:url(../images/page-background.png);
+}
+#qustion {
+    font-size: 24px;
+    text-align: left;
+    color: #0077b3;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.feed_atr{
+    font-style: 
+    font-size: 24px;
+    text-align: left;
+    color: #0077b3;
+}
+
+.box_number1 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 20%;
+    bottom: 20%;
+    border: 2px solid gray;
+    line-height: 200px;
+    text-align: center;
+
+}
+.box_number2{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 40%;
+    bottom: 20%;
+    border: 2px solid gray;
+    line-height: 200px;
+    text-align: center;
+
+}
+.box_number3{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 60%;
+    bottom: 20%;
+    border: 2px solid gray;
+    line-height: 200px;
+    text-align: center;
+
+}
+.box_number4{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 20%;
+    bottom: -24%;
+    border: 2px solid gray;
+    line-height: 200px;
+    text-align: center;
+
+}
+.box_number5{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 40%;
+    bottom: -24%;
+    border: 2px solid gray;
+    line-height: 200px;
+    text-align: center;
+
+}
+.box_feedback{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 60%;
+    bottom: -24%;
+    border: 2px solid gray;
+    line-height: 200px;
+    text-align: center;
+
+}
+#parent {
+  display: flex;
+}
+#narrow {
+  width: 200px;
+  background: lightblue;
+  /* Just so it's visible */
+}
+#wide {
+  flex: 1;
+  /* Grow to rest of container */
+  background: lightgreen;
+  /* Just so it's visible */
+}
+#img_tell{
+    float: right;
+}
