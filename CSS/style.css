@@ -26,7 +26,52 @@ input:hover{
 background-color:#d9d9d9;
 color:#003d66;
 }
-
+div.vertical{
+ position:relative;
+  width:200px;
+  float:left;
+ }
+ div.vertical ul{
+  list-style-type: none;
+  }
+  div.vertical li{
+  position:relative;
+  }
+  div.vertical a{
+   display:block;
+   color:#eee;
+   text-decoration:none;
+   padding:10px 15px;
+   background-color: #8c8c8c;
+   border:1px solid;
+          } 
+ /* ALL A HOVER */
+    div.vertical li:hover > a{
+    background:#000;
+          }
+  .numbers{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #0077b3;
+  }
+          
+.right-column{
+  font-size: 20px;
+    text-align: center;
+    color: #0077b3;
+}  
+hr{
+  border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}        
+#title{
+  font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #8c8c8c;
+}
 
 .box_number1 {
     background-color: #cccccc;
@@ -84,29 +129,6 @@ color:#003d66;
     line-height: 20%;
     text-align: center;
 }
-div.vertical{
- position:relative;
-  width:200px;
-  float:left;
- }
- div.vertical ul{
-  list-style-type: none;
-  }
-  div.vertical li{
-  position:relative;
-  }
-  div.vertical a{
-   display:block;
-   color:#eee;
-   text-decoration:none;
-   padding:10px 15px;
-   background-color:#667;
-   border:1px solid;
-          } 
- /* ALL A HOVER */
-    div.vertical li:hover > a{
-    background:#000;
-          }
 
 header {
     background-image: url(../images/Healthcare_science.jpg);
