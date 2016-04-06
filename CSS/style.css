@@ -85,7 +85,10 @@ background-color: lightgrey;
 bottom:-43%;
 
 }
-
+p.box{
+	font-size: 90%;
+	text-align:center;
+}
 .box_number1 {
     background-color: #ffffff;
     background-image: url(../images/pic1.gif);
@@ -157,6 +160,10 @@ footer {
     padding:3%; 
 }
 section {
+    float:initial;
+    padding:10%; 
+}
+#indexsection {
     float:initial;
     padding:20%; 
 }
