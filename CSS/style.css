@@ -1,103 +1,109 @@
-p.major {font-size:14pt;
+p.major {
+    font-size:14pt;
 font-style: italic;
-font-family: 'Times New Roman';}
-body {
-  background-image:url(../images/page-background.png);
+font-family: 'Times New Roman';
+}
+body{
+  /*background-image:url(../images/page-background.png);*/
+  background-color: #ffffff;
 }
 #qustion {
     font-size: 24px;
-    text-align: left;
+    text-align: center;
     color: #0077b3;
     text-decoration: underline;
     font-weight: bold;
 }
 .feed_atr{
-    font-style: 
     font-size: 24px;
-    text-align: left;
+    text-align: center;
     color: #0077b3;
 }
+input:hover{
+background-color:#d9d9d9;
+color:#003d66;
+}
+
 
 .box_number1 {
+    background-color: #cccccc;
+    background-image: url(../images/pic1.jpg);
+    background-size: 200px;
     position: absolute;
     height: 200px;
     width: 200px;
     left: 20%;
-    bottom: 20%;
+    bottom: 1%;
     border: 2px solid gray;
     line-height: 200px;
     text-align: center;
 
 }
 .box_number2{
+	background-color: #cccccc;
+    background-image: url(../images/pic3.jpg);
+    background-size: 200px;
     position: absolute;
     height: 200px;
     width: 200px;
     left: 40%;
-    bottom: 20%;
+    bottom: 1%;
     border: 2px solid gray;
     line-height: 200px;
     text-align: center;
 
 }
 .box_number3{
+	background-color: #cccccc;
+    background-image: url(../images/pic4.jpg);
+	background-size: 200px;
     position: absolute;
     height: 200px;
     width: 200px;
     left: 60%;
-    bottom: 20%;
+    bottom: 1%;
     border: 2px solid gray;
     line-height: 200px;
     text-align: center;
 
 }
 .box_number4{
+	background-color: #cccccc;
+    background-image: url(../images/pic5.jpg);
+	background-size: 200px;
     position: absolute;
     height: 200px;
     width: 200px;
     left: 20%;
-    bottom: -24%;
+    bottom: -44%;
     border: 2px solid gray;
     line-height: 200px;
     text-align: center;
-
 }
 .box_number5{
+	background-color: #cccccc;
+    background-image: url(../images/pic6.jpg);
+	background-size: 200px;
     position: absolute;
     height: 200px;
     width: 200px;
     left: 40%;
-    bottom: -24%;
+    bottom: -44%;
     border: 2px solid gray;
     line-height: 200px;
     text-align: center;
 
 }
 .box_feedback{
+	background-color: #cccccc;
+    background-image: url(../images/pic2.jpg);
+    background-size: 200px;
     position: absolute;
     height: 200px;
     width: 200px;
     left: 60%;
-    bottom: -24%;
+    bottom: -44%;
     border: 2px solid gray;
     line-height: 200px;
     text-align: center;
-
-}
-#parent {
-  display: flex;
-}
-#narrow {
-  width: 200px;
-  background: lightblue;
-  /* Just so it's visible */
-}
-#wide {
-  flex: 1;
-  /* Grow to rest of container */
-  background: lightgreen;
-  /* Just so it's visible */
-}
-#img_tell{
-    float: right;
 }
