@@ -3,6 +3,9 @@ p.major {
 font-style: italic;
 font-family: 'Times New Roman';
 }
+h1 {
+	color: transparent;
+}
 body{
   /*background-image:url(../images/page-background.png);*/
   background-color: #ffffff;
@@ -28,82 +31,71 @@ color:#003d66;
 .box_number1 {
     background-color: #cccccc;
     background-image: url(../images/pic1.jpg);
-    background-size: 200px;
+    background-size: 100%;
     position: absolute;
-    height: 200px;
-    width: 200px;
-    left: 20%;
-    bottom: 1%;
+    height: 35%;
+    width: 17%;
+    left: 30%;
+    bottom: -5%;
     border: 2px solid gray;
-    line-height: 200px;
+    line-height: 20%;
     text-align: center;
 
 }
-.box_number2{
-	background-color: #cccccc;
-    background-image: url(../images/pic3.jpg);
-    background-size: 200px;
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    left: 40%;
-    bottom: 1%;
-    border: 2px solid gray;
-    line-height: 200px;
-    text-align: center;
 
-}
 .box_number3{
 	background-color: #cccccc;
     background-image: url(../images/pic4.jpg);
-	background-size: 200px;
+	background-size: 100%;
     position: absolute;
-    height: 200px;
-    width: 200px;
-    left: 60%;
-    bottom: 1%;
+    height: 35%;
+    width: 17%;
+    left: 50%;
+    bottom: -5%;
     border: 2px solid gray;
-    line-height: 200px;
+    line-height: 20%;
     text-align: center;
 
 }
 .box_number4{
 	background-color: #cccccc;
     background-image: url(../images/pic5.jpg);
-	background-size: 200px;
+	background-size: 100%;
     position: absolute;
-    height: 200px;
-    width: 200px;
-    left: 20%;
+    height: 35%;
+    width: 17%;
+    left: 30%;
     bottom: -44%;
     border: 2px solid gray;
-    line-height: 200px;
+    line-height: 20%;
     text-align: center;
 }
-.box_number5{
-	background-color: #cccccc;
-    background-image: url(../images/pic6.jpg);
-	background-size: 200px;
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    left: 40%;
-    bottom: -44%;
-    border: 2px solid gray;
-    line-height: 200px;
-    text-align: center;
 
-}
 .box_feedback{
 	background-color: #cccccc;
     background-image: url(../images/pic2.jpg);
-    background-size: 200px;
+    background-size: 100%;
     position: absolute;
-    height: 200px;
-    width: 200px;
-    left: 60%;
+    height: 35%;
+    width: 17%;
+    left: 50%;
     bottom: -44%;
     border: 2px solid gray;
-    line-height: 200px;
+    line-height: 20%;
     text-align: center;
+}
+header {
+    background-image: url(../images/Healthcare_science.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 15%;
+}
+footer {
+    background-color:#4ec4c8;
+    clear:both;
+    padding:3%; 
+}
+section {
+    float:initial;
+    padding:20%; 
 }
