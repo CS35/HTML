@@ -64,6 +64,12 @@ hr{
     font-size: 30px;
     text-align: center;
     color: #8c8c8c;
+  }
+  .firstline{
+    font-size: 25px;
+    text-align: center;
+    color: #8c8c8c;
+  }
 =======
 .box_number1:hover{
 color:lightgrey;
