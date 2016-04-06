@@ -84,6 +84,30 @@ color:#003d66;
     line-height: 20%;
     text-align: center;
 }
+div.vertical{
+ position:relative;
+  width:200px;
+  float:left;
+ }
+ div.vertical ul{
+  list-style-type: none;
+  }
+  div.vertical li{
+  position:relative;
+  }
+  div.vertical a{
+   display:block;
+   color:#eee;
+   text-decoration:none;
+   padding:10px 15px;
+   background-color:#667;
+   border:1px solid;
+          } 
+ /* ALL A HOVER */
+    div.vertical li:hover > a{
+    background:#000;
+          }
+
 header {
     background-image: url(../images/Healthcare_science.jpg);
     background-size: 100%;
