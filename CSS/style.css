@@ -60,6 +60,7 @@ nav {
 	background-color: #ffffff;
     background-image: url(../images/pic5.gif);
 	background-size: 100%;
+    background-repeat: no-repeat;
     position: absolute;
     height: 35%;
     width: 17%;
@@ -71,6 +72,7 @@ nav {
 	background-color: #ffffff;
     background-image: url(../images/pic2.gif);
     background-size: 95%;
+    background-repeat: no-repeat;
     position: absolute;
     height: 35%;
     width: 17%;
@@ -195,9 +197,6 @@ div.vertical a{
    background-color: #8c8c8c;
    border:1px solid;
 } 
-
-
-
 /*---------------------------------------------------------------------------------------------------------*/
                                                  /*Fonts*/
 /*---------------------------------------------------------------------------------------------------------*/
