@@ -20,7 +20,7 @@ section {
 }
 #indexsection {
     float:initial;
-    padding:23%; 
+    padding:25%; 
 }
 nav {
     line-height:100%;
@@ -40,8 +40,8 @@ nav {
     position: absolute;
     height: 35%;
     width: 17%;
-    left: 30%;
-    bottom: -5%;
+    margin-left: 5%;
+    margin-top: -16%;
     border: 2px solid gray;
 }
 .box_number2{
@@ -52,8 +52,8 @@ nav {
     position: absolute;
     height: 35%;
     width: 17%;
-    left: 50%;
-    bottom: -5%;
+    margin-left: 25%;
+    margin-top: -16%;
     border: 2px solid gray;
 }
 .box_number3{
@@ -64,8 +64,8 @@ nav {
     position: absolute;
     height: 35%;
     width: 17%;
-    left: 30%;
-    bottom: -44%;
+    margin-left: 5%;
+    margin-top: 5%;
     border: 2px solid gray;
 }
 .box_feedback{
@@ -76,9 +76,17 @@ nav {
     position: absolute;
     height: 35%;
     width: 17%;
-    left: 50%;
-    bottom: -44%;
+    margin-left: 25%;
+    margin-top: 5%;
     border: 2px solid gray;
+}
+.box_description{
+   position: absolute;
+   margin-left: -24.7%;
+   margin-top: -24%;
+   width:98.4%;
+   height: 11%;
+   border:2px solid black;
 }
 p.box{
 	font-size: 90%;
@@ -161,19 +169,19 @@ color:#003d66;
 }
 .box_number1:hover{
 background-color: lightgrey;
-bottom:-4%;
+margin-top: -17%;
 }
 .box_number2:hover{
 background-color: lightgrey;
-bottom:-4%;
+margin-top: -17%;
 }
 .box_number3:hover{
 background-color: lightgrey;
-bottom:-43%;
+margin-top: 4%;
 }
 .box_feedback:hover{
 background-color: lightgrey;
-bottom:-43%;
+margin-top: 4%;
 }
 /*---------------------------------------------------------------------------------------------------------*/
                                                /*vertical*/
