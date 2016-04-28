@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script type="text/javascript">
+function validate() {
+	var name = document.myform.username.value;
+var pass = document.myform.pword.value;
+
+if(name == ""||pass == "")
+	window.alert("The user name or password is empty")
+else
+    window.alert("Welcome "+name)
+}
+/* if(name!= ""||pass!="")//here erro/:
+var dom = document.getElementById('log');
+log.visibility = "hidden"; */
+</script>
 <meta name="keywords" content="health, care, dite, habit, change, lifestyle">
 	<title>Health Care</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -8,6 +22,13 @@
 <body> 
 <header>
 </header>
+<div id="log">
+<form name = "myform">
+<p>ENTER USER NAME <input type="text" name="username"> ENTER PASSWORD <input type="password" name="pword">
+<input type="button" value="Check In" name="Submit" onclick= "validate()">
+</p>
+</form>
+</div>
 <section id="indexsection">
 <div class="box_description">
 	<p>
