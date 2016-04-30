@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script type="text/javascript">//dosen't work i don't know why?!
+function validate() {
+	var name = document.myform.username.value;
+	var mail = document.myform.e-mail.value;
+	var massage = document.myform.massage.value;
+	if(name == "" || name == null){
+		window.alert("The user name is empty");
+	}
+	else if (mail == "" || mail == null){
+		window.alert("The mail is empty");
+	}
+	else if (massage == "" || massage == null){
+		window.alert("The massage is empty");
+	}
+	}
+</script>
 <meta name="keywords" content="feedback">
 	<title>FeedBack</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -17,11 +33,11 @@
     <a href="feedback.html"><div class="box4_smaller"></div></a>
 <p id="qustion">Please take a few moment to complet this:<br />
 we care about your feedback...</p>
-<form action="">
+<form name="myform">
 <p class="feed_atr">
-&nbsp; name:<input type="text" name="name" value="Enter your name"/> <br /><br />
-&nbsp; E-mail:<input type="text" name="e-mail" value="Enter your E-mail"/> <br /><br />
-&nbsp; adress:<input type="text" name="adress" value="Enter your address"/><br /><br />
+&nbsp; name:<input type="text" name="username" /> <br /><br />
+&nbsp; E-mail:<input type="text" name="e-mail"/> <br /><br />
+&nbsp; adress:<input type="text" name="adress"/><br /><br />
 &nbsp; select what do you want:<br />
 &nbsp;<select name="service">
 	<option>suggestion</option>
@@ -30,7 +46,7 @@ we care about your feedback...</p>
 	<option>help</option>
 </select><br />
 &nbsp; 
-<textarea> write here</textarea><br />
+<textarea name="massage"> write here</textarea><br />
 &nbsp; how do you see the website?<br />
 <label><input type="radio" name="rate" value="awesome"/>awesome</label>
 <label><input type="radio" name="rate" value="good"/>good</label>
@@ -38,7 +54,7 @@ we care about your feedback...</p>
 &nbsp; what we need to improve?:<br />
 <textarea> write here</textarea><br />
 <input type="reset" value="Reset Form"/>
-<input type="submit" value="Submit form"/>
+<input type="submit" value="Submit form" onclick="validate()"/>
 </p>
 </form>
 </section>
