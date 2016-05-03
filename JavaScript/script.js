@@ -3,29 +3,33 @@ function validate() {
 var name = document.myform.username.value;
 var pass = document.myform.pword.value;
 
+
 //makes the username at least 2 charecters
 if(name === "" && pass === ""){
 	window.alert("The user name and password is empty");
-	return false;
 }
 else if(name === ""){
 	window.alert("The user name is empty");
-	return false;
 }
 else if(pass === ""){
 	window.alert("The user password is empty");
-	return false;
 }
 else if(name !== "" && pass !== ""){
     window.alert("Welcome " + name);
-    return true;
 }
 }
-// document.getElementByinput('text').style.setColor('focus',yellow); //dosen't work
-
+// i don't know if it's correct call variabile or not 
+function change_back() {
+var x = document.myform.text;
+x.onfocus = "this.style.backgroundColor='yellow' ";
+x.onblur = "this.style.backgroundColor='white' ";
+var p = document.myform.password;
+p.onfocus = "this.style.backgroundColor='yellow' ";
+p.onblur = "this.style.backgroundColor='white' ";
+}
 /* if(name!= "" && pass!="")//here erro
 var dom = document.getElementById('log').innerHTML;
-log.visibility = "hidden"; */
+dom.visibility = "hidden"; */
 
 /*-------------------feedback------------------------------*/
 function checkForm(){
