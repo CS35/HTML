@@ -12,10 +12,10 @@
 
 <form name = "myform">
 <p>
-ENTER USER NAME <input type="text" name="username"> 
+ENTER USER NAME <input type="text" name="username" onfocus="myFocus(this)" onblur="myBlur(this)">
 ENTER PASSWORD <input type="password" name="pword">
 <input type="checkbox" value="rememberme" name="rememberme">remember me
-<input type="button" value="login" name="Submit" onclick= "validate()">
+<input type="submit" value="login" name="login" onclick= "validate()">
 </p>
 </form>
 

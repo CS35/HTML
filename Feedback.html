@@ -20,9 +20,9 @@
 we care about your feedback...</p>
 <form name="feedform">
 <p class="feed_atr">
-&nbsp; name:<input type="text" name="username"/><br /><br />
-&nbsp; E-mail:<input type="text" name="e-mail"/> <br /><br />
-&nbsp; adress:<input type="text" name="adress"/><br /><br />
+&nbsp; name:<input type="text" name="username" onfocus="myFocus(this)" onblur="myBlur(this)"/><br /><br />
+&nbsp; E-mail:<input type="text" name="e-mail" onfocus="myFocus(this)" onblur="myBlur(this)"/> <br /><br />
+&nbsp; adress:<input type="text" name="adress" onfocus="myFocus(this)" onblur="myBlur(this)"/><br /><br />
 &nbsp; select what do you want:<br />
 &nbsp;<select name="service">
 	<option>suggestion</option>
@@ -30,7 +30,7 @@ we care about your feedback...</p>
 	<option>Idea</option>
 	<option>help</option>
      </select><br />
-&nbsp; 
+&nbsp;
 <textarea name="message"> write here</textarea><br />
 &nbsp; how do you see the website?<br />
 <label><input type="radio" name="rate" value="awesome"/>awesome</label>
@@ -39,7 +39,7 @@ we care about your feedback...</p>
 &nbsp; what we need to improve?:<br />
 <textarea> write here</textarea><br />
 <input type="reset" value="Reset Form"/>
-<input type="submit" value="Submit form" onsubmit="return checkForm()"/> 
+<input type="submit" value="Submit form" onsubmit="return checkForm()"/>
 </p>
 </form>
 </section>
