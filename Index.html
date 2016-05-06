@@ -15,12 +15,13 @@
 	<p>
 		&nbsp;health is one of the most important things we have.the better you take care of your health, the longer you'll live.here we give you some tips and advices on how to take better care of your health.
 	</p>
-	<form name = "myform">
+	<form name = "myform" onsubmit= "return validate();">
 	<p>
 	ENTER USER NAME <input type="text" name="username" onfocus="myFocus(this)" onblur="myBlur(this)">
 	ENTER PASSWORD <input type="password" name="pword"  onfocus="myFocus(this)" onblur="myBlur(this)">
 	<input type="checkbox" value="rememberme" name="rememberme">remember me
-	<input type="submit" value="login" name="login" onclick= "validate()">
+	<input type="submit" value="login" name="login">
+	<div id="error" style="display:none;"> </div>
 	</p>
 	</form>
 </div>

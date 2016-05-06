@@ -68,20 +68,29 @@ var name = document.myform.username.value;
 var pass = document.myform.pword.value;
 
 if(name === "" && pass === ""){
-	window.alert("The user name and password is empty");
-  return false;
+  document.getElementById("error").innerHTML = "<p> Error: The user name and password is empty </p>";
+  document.getElementById("error").style.color = "red";
+  document.getElementById("error").style.display = "block";
+    return false;
 }
 else if(name === ""){
-	window.alert("The user name is empty");
-  return false;
+	document.getElementById("error").innerHTML = "<p> Error: username is empty </p>";
+  document.getElementById("error").style.color = "red";
+  document.getElementById("error").style.display = "block";
+    return false;
 }
 else if(pass === ""){
-	window.alert("The user password is empty");
-  return false;
+	document.getElementById("error").innerHTML = "<p> Error: password is empty </p>";
+  document.getElementById("error").style.color = "red";
+  document.getElementById("error").style.display = "block";
+    return false;
 }
 else if(name !== "" && pass !== ""){
-    window.alert("Welcome " + name);
+   document.getElementById("error").innerHTML = "";
+   document.getElementById("error").style.color = "black";
+   document.getElementById("error").style.display = "none";
     return true;
 }
 }
+
 
