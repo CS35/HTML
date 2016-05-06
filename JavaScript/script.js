@@ -1,48 +1,42 @@
-function ValidateName()
+
+function ValidateSubmit()
 {
   var name = document.getElementById("username").value;
+  var email = document.getElementById("e-mail").value;
+  var firstmessage = document.getElementById("fmessage").value;
+  var secondmessage = document.getElementById("smessage").value;
   if(name.length === 0)
   {
-    Error("Name is Required","usernamePrompt");
+    Error("Name is Required","submitprompt");
     return false;
   }
-  if(!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/))
+  if(email.length === 0)
   {
-    Error("First and last name please","usernamePrompt");
-    return false;
-  }
-  else
-  {
-    Pass("Welcome "+name,"usernamePrompt","green");
-    return true;
-  }
-}
-function ValidateEmail()
-{
-  var email = document.getElementById("e-mail").value;
-  if (email.length === 0)
-  {
-    Error("Email is required","EmailPrompt");
+    Error("Email is required","submitprompt");
     return false;
   }
   if(!email.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/))
   {
-    Error("Email Adrees is invalid","EmailPrompt","red");
+    Error("Email Adrees is invalid","submitprompt");
     return false;
   }
-  else{
-  Pass("Valid email Adress","EmailPrompt","green");
-  return true;
-}
-}
-function ValidateSubmit()
-{
-  if (!(ValidateName()) || !(ValidateEmail()))
+  if (firstmessage.length === 0)
   {
-    Error("Form must be filled to submit","submitprompt");
+    Error("Please enter some text in the first box","submitprompt");
     return false;
   }
-  else {
+  if (secondmessage.length === 0)
+  {
+    Error("Please enter some text in the second box","submitprompt");
+    return false;
+  }
+  if (firstmessage.length === 0 & secondmessage.length === 0)
+  {
+    Error("Please enter some text in both of the boxes","submitprompt");
+    return false;
+  }
+  else
+ {
     Pass("submitprompt");
     return true;
   }
@@ -55,7 +49,6 @@ function myBlur(x)
 {
   x.style.background = "white";
 }
-
 function validate() {
 var name = document.myform.username.value;
 var pass = document.myform.pword.value;
