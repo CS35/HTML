@@ -22,9 +22,8 @@ we care about your feedback...</p>
 <div class="feed_atr">
 	<form id="feedform" onsubmit="return ValidateSubmit()">
 	<p>
-	&nbsp; name:<input type="text" id="username" onfocus="myFocus(this)" onblur="myBlur(this)" oninput="ValidateName()"/><br /><br  />
-	&nbsp; E-mail:<input type="text" id="e-mail" onfocus="myFocus(this)" onblur="myBlur(this)" oninput="ValidateEmail()"/><br /><br />
-	&nbsp; adress:<input type="text" id="adress" onfocus="myFocus(this)" onblur="myBlur(this)"/><label></label><br /><br />
+	&nbsp; name:<input type="text" id="username" onfocus="myFocus(this)" onblur="myBlur(this)"/><br /><br  />
+	&nbsp; E-mail:<input type="text" id="e-mail" onfocus="myFocus(this)" onblur="myBlur(this)"/><br /><br />
 	&nbsp; select what do you want:<br />
 	&nbsp;<select name="service">
 		<option>suggestion</option>
@@ -33,13 +32,13 @@ we care about your feedback...</p>
 		<option>help</option>
 	     </select><br />
 	&nbsp;
-	<textarea id="fmessage"></textarea><br />
+	<textarea id="fmessage" onfocus="myFocus(this)" onblur="myBlur(this)"></textarea><br />
 	&nbsp; how do you see the website?<br />
-	<label><input type="radio" name="rate" value="awesome"/>awesome</label>
+	<label><input type="radio" name="rate" value="awesome" checked="checked"/>awesome</label>
 	<label><input type="radio" name="rate" value="good"/>good</label>
 	<label><input type="radio" name="rate" value="bad"/>bad</label><br /><br />
 	&nbsp; what we need to improve?:<br />
-	<textarea id="smessage"></textarea><br />
+	<textarea id="smessage" onfocus="myFocus(this)" onblur="myBlur(this)"></textarea><br />
 	<input type="reset" value="Reset Form"/>
 	<input type="submit" value="Submit Form"/><br  />
 	<div class=".alert" id="submitprompt" style="display:none;"></div>
