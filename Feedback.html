@@ -20,7 +20,7 @@
 we care about your feedback...</p>
 
 
-<form id="feedform">
+<form id="feedform" onsubmit="return ValidateSubmit()">
 <p class="feed_atr">
 &nbsp; name:<input type="text" id="username" onfocus="myFocus(this)" onblur="myBlur(this)" oninput="ValidateName()"/><br />
 <div id="usernamePrompt" style="display:none;"></div><br  />
@@ -45,7 +45,7 @@ we care about your feedback...</p>
 <textarea> write here</textarea><br />
 <label></label> <br  />
 <input type="reset" value="Reset Form"/>
-<input type="submit" value="Submit Form" onsubmit="ValidateSubmit()"/><br  />
+<input type="submit" value="Submit Form"/><br  />
 <div id="submitprompt" style="display:none;"></div>
 </p>
 </form>
