@@ -22,8 +22,10 @@ we care about your feedback...</p>
 
 <form id="feedform">
 <p class="feed_atr">
-&nbsp; name:<input type="text" id="username" onfocus="myFocus(this)" onblur="myBlur(this)" oninput="ValidateName()"/><label id="usernamePrompt"></label><br /><br />
-&nbsp; E-mail:<input type="text" id="e-mail" onfocus="myFocus(this)" onblur="myBlur(this)" oninput="ValidateEmail()"/><label id="EmailPrompt"></label><br /><br />
+&nbsp; name:<input type="text" id="username" onfocus="myFocus(this)" onblur="myBlur(this)" oninput="ValidateName()"/><br />
+<div id="usernamePrompt" style="display:none;"></div><br  />
+&nbsp; E-mail:<input type="text" id="e-mail" onfocus="myFocus(this)" onblur="myBlur(this)" oninput="ValidateEmail()"/><br />
+<div id="EmailPrompt" style="display:none;"></div><br />
 &nbsp; adress:<input type="text" id="adress" onfocus="myFocus(this)" onblur="myBlur(this)"/><label></label><br /><br />
 &nbsp; select what do you want:<br />
 &nbsp;<select name="service">
@@ -43,7 +45,8 @@ we care about your feedback...</p>
 <textarea> write here</textarea><br />
 <label></label> <br  />
 <input type="reset" value="Reset Form"/>
-<label id="submitprompt"><input type="submit" value="Sumit Form" onsubmit="return ValidateSubmit()"/></label>
+<input type="submit" value="Submit Form" onsubmit="ValidateSubmit()"/><br  />
+<div id="submitprompt" style="display:none;"></div>
 </p>
 </form>
 </section>
