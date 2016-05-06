@@ -1,4 +1,3 @@
-
 function ValidateSubmit()
 {
   var name = document.getElementById("username").value;
