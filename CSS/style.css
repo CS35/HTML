@@ -39,8 +39,8 @@ nav {
     position: absolute;
     height: 35%;
     width: 17%;
-    margin-top: -16%;
-    margin-left: -5%;
+    margin-top: -14%;
+    margin-left: 5%;
     border: 2px solid #808080;
 }
 .box_number2{
@@ -51,8 +51,8 @@ nav {
     position: absolute;
     height: 35%;
     width: 17%;
-    margin-top: -16%;
-    margin-left: 16%;
+    margin-top: -14%;
+    margin-left: 25%;
     border: 2px solid #808080;
 }
 .box_number3{
@@ -64,7 +64,7 @@ nav {
     height: 35%;
     width: 17%;
     margin-top: 5%;
-    margin-left: -5%;
+    margin-left: 5%;
     border: 2px solid gray;
 }
 .box_feedback{
@@ -76,40 +76,16 @@ nav {
     height: 35%;
     width: 17%;
     margin-top: 5%;
-    margin-left: 16%;
+    margin-left: 25%;
     border: 2px solid gray;
 }
 .box_description{
    position: absolute;
    margin-top: -24%;
    margin-left: -24.7%;
-   width:98.4%;
-   height: 7%;
+   width:98.6%;
+   height: 12%;
    border:2px solid gray;
-}
-.box_Register{
-  background-color: #ffffff;
-  background-image: url(../images/register.gif);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  position: absolute;
-  height: 35%;
-  width: 17%;
-  margin-top: -16%;
-  margin-left: 37%;
-  border: 2px solid #808080;
-}
-.box_login{
-  background-color: #ffffff;
-  background-image: url(../images/login.gif);
-  background-size: 95%;
-  background-repeat: no-repeat;
-  position: absolute;
-  height: 35%;
-  width: 17%;
-  margin-top: 5%;
-  margin-left: 37%;
-  border: 2px solid gray;
 }
 /*---------------------------------------------------------------------------------------------------------*/
                                                   /* Pages Buttons*/
@@ -180,25 +156,17 @@ color:#003d66;
 }
 .box_number1:hover{
 background-color: lightgrey;
-margin-top: -17%;
+margin-top: -15%;
 }
 .box_number2:hover{
 background-color: lightgrey;
-margin-top: -17%;
+margin-top: -15%;
 }
 .box_number3:hover{
 background-color: lightgrey;
 margin-top: 4%;
 }
 .box_feedback:hover{
-background-color: lightgrey;
-margin-top: 4%;
-}
-.box_Register:hover{
-background-color: lightgrey;
-margin-top: -17%;
-}
-.box_login:hover{
 background-color: lightgrey;
 margin-top: 4%;
 }
@@ -264,12 +232,14 @@ div.vertical a{
 p.box{
 	font-size: 90%;
 	text-align:center;
+  position: inherit;
 	margin-top: 77%;
 	color: #000000;
 }
 p.Other_box{
 	font-size: 100%;
 	text-align:center;
+  position: inherit;
 	margin-top: 69%;
 	color: #000000;
 }
