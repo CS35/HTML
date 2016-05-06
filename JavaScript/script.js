@@ -50,7 +50,10 @@ function ProducePrompt(message, promptlocation, color)
 function myFocus(x) {
     x.style.background = "yellow";
 }
-
+function myBlur(x)
+{
+  x.style.background = "white";
+}
 function jsShow(id)
 {
   document.getElementsById(id).style.display = "block";
